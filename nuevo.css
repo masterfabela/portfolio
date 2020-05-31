@@ -28,6 +28,7 @@ body{
 }
 
 .info__det{
+    text-align: center;
     padding: 3em;
     position: relative;
     display: flex;
