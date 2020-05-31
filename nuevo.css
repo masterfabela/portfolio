@@ -52,6 +52,11 @@ body{
     
 }
 
+.card {
+    display: flex;
+    justify-content: center;
+}
+
 p:nth-child(2){
     display: flex;
     position:relative;
@@ -98,7 +103,7 @@ img:hover{
     margin: 1em;
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .skills__box{
@@ -116,7 +121,7 @@ img:hover{
 
 .titulo{
     text-align: center;
-    font-size: 48pt;
+    font-size: 38pt;
 }
 
 .titulo__caja{
@@ -263,6 +268,7 @@ img:hover{
 
 .proyectos__cuadro{
     text-align: center;
+    width: 70%;
 }
 
 .cuadro{
@@ -282,7 +288,7 @@ img:hover{
     color:white;
     border: 3px solid black;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; 
-    height: 200px;
+    padding-top: 56.25%;
 }
 
 .cuadro:hover{
